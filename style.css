@@ -1,0 +1,118 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* General elements */
+
+html {
+    background-color: #141414;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+a{
+    color: #4ecac2;
+}
+
+/* Header */
+
+header {
+    height: 100vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+header p {
+    color: #b6b6b6;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+/* Page sections */
+
+section {
+    padding: 10vh 1em;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+/* Projects */
+
+article.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    align-items: flex-start;
+}
+
+.project h3 {
+    width: 100%;
+    margin-bottom: 0.2em;
+}
+
+.project img {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.project p {
+    width: 70%;
+}
+
+/* About me */
+
+section#about-me {
+    text-align: center;
+    background: #000000;
+}
+
+section#about-me p {
+    margin-bottom: 0.7em;
+}
+
+/* Footer */
+
+footer {
+    color: #5d5d5d;
+    font-size: 0.8em;
+    padding: 1em;
+    text-align: center;
+    background: black;
+}
