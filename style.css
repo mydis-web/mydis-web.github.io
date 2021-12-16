@@ -101,10 +101,13 @@ article.project {
 section#about-me {
     text-align: center;
     background: #000000;
+    max-width: unset;
 }
 
 section#about-me p {
     margin-bottom: 0.7em;
+    max-width: 890px;
+    margin: auto;
 }
 
 /* Footer */
